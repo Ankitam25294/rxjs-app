@@ -1,0 +1,10 @@
+@for (lesson of lessons; track lesson.id) {
+    <ul>
+        <li>
+            <a routerLink="{{lesson.routerLink}}">{{lesson.text}}</a> &nbsp;
+        </li>
+    </ul>
+  }
+  
+<router-outlet></router-outlet>
+  

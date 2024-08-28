@@ -1,0 +1,10 @@
+<p>buffer works!</p>
+<button (click)="startInterval()">Start Interval</button>
+
+<button id="showButton">Show Data</button>
+
+<div *ngIf="intervalData.length">
+    <div  *ngFor="let data of intervalData">
+        {{data}}
+    </div>
+</div>
